@@ -16,13 +16,13 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    prefix: "~",
-    metric: "Users",
-    value: 150,
+    postfix: "+",
+    metric: "Coffee Cups Consumed",
+    value: 10000,
   },
   {
     metric: "Awards",
-    value: 7,
+    value: 0,
   },
   {
     metric: "Years",
