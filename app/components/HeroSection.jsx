@@ -39,12 +39,12 @@ const HeroSection = () => {
           <h2 className="text-yellow-600 mb-4 text-2xl sm:text-1xl lg:text-1xl lg:leading-normal font-bold">
           Seeking an Apprentice? 
           </h2>
-          <h2 className="text-white mb-4 text-2xl sm:text-1xl lg:text-1xl lg:leading-normal font-bold">I'm  eager to join your team and contribute to innovative projects. 
-           <br /> If you're looking to add a dynamic and fresh perspective to your company, let's talk!</h2>
+          <h2 className="text-white mb-4 text-2xl sm:text-1xl lg:text-1xl lg:leading-normal font-bold">I&apos;m  eager to join your team and contribute to innovative projects. 
+           <br /> If you&apos;re looking to add a dynamic and fresh perspective to your company, let&apos;s talk!</h2>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           As a web developer with a strong foundation in both frontend and backend technologies,
           I thrive on designing and building responsive, user-friendly applications. With each line of code,
-          I strive to create meaningful digital experiences. Explore my portfolio to see what I’ve been up
+          I strive to create meaningful digital experiences. Explore my portfolio to see what I&apos;ve been up
           to, or get in touch to discuss how we can collaborate on your next project.
           </p>
           <div>

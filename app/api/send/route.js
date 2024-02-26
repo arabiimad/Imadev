@@ -31,7 +31,7 @@ export async function POST(req, res) {
           <p>Hello {name},</p>
           <p>Thank you so much for reaching out. I truly appreciate you taking the time to write to me.</p>
           <p>Your message is very important to me, and I aim to get back to you as soon as possible. In the meantime, feel free to explore my website further or follow me on social media for updates and more information.</p>
-          <p>If your inquiry is urgent, please mention that in a follow-up email, and I'll do my best to prioritize it.</p>
+          <p>If your inquiry is urgent, please mention that in a follow-up email, and I&apos;ll do my best to prioritize it.</p>
           <p>Thanks again for contacting me, {name}! Looking forward to speaking with you.</p>
           <p>Warm regards,</p>
           <p><strong>Arabi Imadeddine</strong></p>

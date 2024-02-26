@@ -63,9 +63,9 @@ const AboutSection = () => {
             Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
             I am excited to work with others to create amazing applications. <br />
-            I'm on the hunt for an Apprenticeship in web development 
+            I&apos;m on the hunt for an Apprenticeship in web development 
             where I can hone my skills and make a significant impact. 
-            If you're looking for fresh talent with a passion for technology and innovation, let's connect!
+            If you&apos;re looking for fresh talent with a passion for technology and innovation, let&apos;s connect!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
