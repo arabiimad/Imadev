@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>IRIS Paris - France</li>
-        <li>Specialized Institute of Applied Technology Lazaret, Oujda - Morocco</li>
+        <li>2023 - 2024 | IRIS Paris - France</li>
+        <li> 2021 - 2023 | Specialized Institute of Applied Technology Lazaret, Oujda - Morocco</li>
       </ul>
     ),
   },
@@ -57,12 +57,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
+            I am a fullstack web developement student with a passion for creating
             interactive and responsive web applications. I have experience
             working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
             Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am excited to work with others to create amazing applications. <br />
+            I'm on the hunt for an Apprenticeship in web development 
+            where I can hone my skills and make a significant impact. 
+            If you're looking for fresh talent with a passion for technology and innovation, let's connect!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -79,13 +82,13 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               {" "}
               Certifications{" "}
-            </TabButton>
+            </TabButton>*/}
           </div>
           <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}

@@ -22,7 +22,7 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Imadeddine",
+                "Imad",
                 1000,
                 "Fullstack",
                 1000,
@@ -36,10 +36,16 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
+          <h2 className="text-yellow-600 mb-4 text-2xl sm:text-1xl lg:text-1xl lg:leading-normal font-bold">
+          Seeking an Apprentice? 
+          </h2>
+          <h2 className="text-white mb-4 text-2xl sm:text-1xl lg:text-1xl lg:leading-normal font-bold">I'm  eager to join your team and contribute to innovative projects. 
+           <br /> If you're looking to add a dynamic and fresh perspective to your company, let's talk!</h2>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          As a web developer with a strong foundation in both frontend and backend technologies, <br /> 
-          I thrive on designing and building responsive, user-friendly applications. With each line of code, <br />I strive to create meaningful digital experiences. 
-          Explore my portfolio to see what I’ve been up <br /> to, or get in touch to discuss how we can collaborate on your next project.
+          As a web developer with a strong foundation in both frontend and backend technologies,
+          I thrive on designing and building responsive, user-friendly applications. With each line of code,
+          I strive to create meaningful digital experiences. Explore my portfolio to see what I’ve been up
+          to, or get in touch to discuss how we can collaborate on your next project.
           </p>
           <div>
             <Link
@@ -65,13 +71,13 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className=" rounded-xl bg-[#181818] w-[350px] h-[170px] lg:w-[600px] lg:h-[290px] relative">
+          <div className="full bg-[#181818] w-[400px] h-[200px] lg:w-[450px] lg:h-[200px] relative">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={600}
-              height={400}
+              width={450}
+              height={350}
             />
           </div>
         </motion.div>

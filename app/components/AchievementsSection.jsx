@@ -16,13 +16,9 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    postfix: "+",
+    postfix: "~",
     metric: "Coffee Cups Consumed",
-    value: 10000,
-  },
-  {
-    metric: "Awards",
-    value: 0,
+    value: "10k",
   },
   {
     metric: "Years of Experience",
